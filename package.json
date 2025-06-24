@@ -1,18 +1,42 @@
 {
   "name": "igreja-videira",
   "version": "1.0.0",
-  "description": "Sistema completo de gerenciamento de eventos e venda de ingressos para igrejas",
   "private": true,
+  "description": "Sistema completo de gerenciamento de eventos e venda de ingressos para igrejas",
+  "keywords": [
+    "igreja",
+    "eventos",
+    "ingressos",
+    "qr-code",
+    "next.js",
+    "typescript",
+    "tailwind",
+    "react"
+  ],
+  "homepage": "https://github.com/seu-usuario/igreja-videira#readme",
+  "bugs": {
+    "url": "https://github.com/seu-usuario/igreja-videira/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/igreja-videira.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Igreja Videira",
+    "email": "contato@igrejavideira.com",
+    "url": "https://igrejavideira.com"
+  },
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix",
-    "type-check": "tsc --noEmit",
+    "dev": "next dev",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "prepare": "husky install"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "prepare": "husky install",
+    "start": "next start",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
@@ -69,30 +93,6 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
-  "keywords": [
-    "igreja",
-    "eventos",
-    "ingressos",
-    "qr-code",
-    "next.js",
-    "typescript",
-    "tailwind",
-    "react"
-  ],
-  "author": {
-    "name": "Igreja Videira",
-    "email": "contato@igrejavideira.com",
-    "url": "https://igrejavideira.com"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/seu-usuario/igreja-videira.git"
-  },
-  "bugs": {
-    "url": "https://github.com/seu-usuario/igreja-videira/issues"
-  },
-  "homepage": "https://github.com/seu-usuario/igreja-videira#readme",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"
